@@ -1,0 +1,17 @@
+{
+  "url": "https://example.com/listings",
+  "item_selector": ".listing",
+  "title_selector": ".title",
+  "price_selector": ".price",
+  "link_selector": ".title",
+
+  "include_words": ["keyword one", "keyword two"],
+  "exclude_words": ["broken", "spare parts"],
+  "min_price": null,
+  "max_price": 250,
+
+  "send_existing_on_first_run": false,
+  "interval_minutes": 15,
+  "state_file": "seen.json",
+  "log_file": "log.csv"
+}

@@ -1,0 +1,16 @@
+{
+  "url": "http://localhost:8000/page.html",
+  "item_selector": ".listing",
+  "title_selector": ".title",
+  "price_selector": ".price",
+  "link_selector": ".title",
+
+  "include_words": ["wh-1000xm"],
+  "exclude_words": ["cable", "charger", "case"],
+  "max_price": 250,
+
+  "send_existing_on_first_run": true,
+  "interval_minutes": 15,
+  "state_file": "demo/seen.json",
+  "log_file": "demo/log.csv"
+}
