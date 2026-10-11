@@ -1,0 +1,8 @@
+seen.json
+log.csv
+config.json
+demo/seen.json
+demo/log.csv
+__pycache__/
+*.pyc
+.env
